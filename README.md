@@ -1,16 +1,26 @@
-# Linear-Regression
+# Bike-Rental-Demand
 
-# Project Summary.
-Trip duration is the most fundamental measure in all modes of transportation. Hence, it is crucial to predict the trip-time precisely for the advancement of Intelligent Transport Systems (ITS) and traveller information systems. In order to predict the trip duration, data mining techniques are employed in this project to predict the trip duration of rental bikes in Seoul Bike sharing system. The prediction is carried out with the combination of Seoul Bike data and weather data.
+## Problem statement :-
+The objective of this Case is to Predication of bike rental count on daily based on the environmental and seasonal settings.
 
-Please use the Seoul Bike dataset.
-
-What are the factors that influence the number of bikes rented?
-
-Explore the data for outliers and missing values.
-
-Plot the correlation between the variables and state your comments
-
-Please build a linear regression model to predict rented bike count by choosing appropriate independentvariables.
-
-Coment on Model performance by using approapriate diagnostics and measures.
+## Contents :-
+1. Exploratory Data Analysis
+       * Loading the dataset and libraries
+       * Data cleaning
+       * Typecasting the attributes
+       * Missing value analysis
+2. Attributes distributions and trends
+       * Monthly distribution of counts
+       * Yearly distribution of counts
+3. Correlation matrix 
+4. Split the dataset into train and test dataset
+5. Encoding the categorical features
+6. Modelling the training dataset
+       * Random Forest Model
+7. Model performance on test dataset
+       * Random Forest Prediction
+8. Model Evaluation Metrics
+       * R-squared score
+       * Root mean square error
+       * Mean absolute error
+9. Choosing best model for predicting bike rental count
